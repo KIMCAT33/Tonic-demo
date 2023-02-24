@@ -160,9 +160,6 @@ function App() {
           <button onClick={() => sendTransaction("EQDJDVP9cXPCRMgjH9z8eZO4IXyp05fN1hnDrDGbuByRIUpq", 0.1, "payload", "")}>
           <div>Send Transaction</div>
         </button>
-        <button onClick={() => runGetMethod("getExtendedAddressInformation")}>
-          <div>Run Get Method</div>
-        </button>
         <button onClick={getBalance}>
           <div>Get Balance</div>
         </button>
